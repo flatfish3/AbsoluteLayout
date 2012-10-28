@@ -3,21 +3,21 @@
     android:id="@+id/AbsoluteLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
-
+
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="50dp"
         android:layout_y="50dp"
-        android:text="TextView" />
-
-    <Button
-        android:id="@+id/button1"
+        android:text="(50, 50)" />
+
+    <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="100dp"
         android:layout_y="100dp"
-        android:text="Button" />
+        android:text="(100, 100)" />
 
 </AbsoluteLayout>
